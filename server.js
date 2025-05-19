@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const apiKey = "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";
+const apiKey = "api_key";
 
 const requestBody = {
   model: "deepseek/r1:free",
